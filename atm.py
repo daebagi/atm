@@ -10,4 +10,13 @@ while True:
     if num == '4':
         break
 
+    if num == '1':
+        pass
+
+    if num == '2':
+        pass
+
+    if num == '3':
+        pass
+    
 print(f'서비스를 종료합니다.현재 잔액은 {balance}원 입니다.')
