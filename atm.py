@@ -25,7 +25,7 @@ while True:
         receipts.append(('출금', withdraw_amount, balance))
 
     if num == '3':
-        if True:
+        if receipts:
             
             for i in receipts:
                 print(f'{i[0]}: {i[1]}원 | 잔액: {i[2]}')
